@@ -11,7 +11,7 @@ import SnapKit
 
 class CalculatorButton: UIButton {
     
-    var buttonSize : CGFloat = 50
+    var buttonSize : CGFloat = Config.buttonSize
     var fontSize : CGFloat = 30
     
     override init(frame: CGRect) {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2538B877244A5677006E9B42 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2538B876244A5677006E9B42 /* Config.swift */; };
 		B534534E24462F4600026E81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B534534D24462F4600026E81 /* AppDelegate.swift */; };
 		B534535224462F4600026E81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B534535124462F4600026E81 /* ViewController.swift */; };
 		B534535724462F4D00026E81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B534535624462F4D00026E81 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2538B876244A5677006E9B42 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		4DB5430C49AA47F49C1D2738 /* Pods-Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calculator.debug.xcconfig"; path = "Target Support Files/Pods-Calculator/Pods-Calculator.debug.xcconfig"; sourceTree = "<group>"; };
 		B534534A24462F4600026E81 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B534534D24462F4600026E81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				B534535824462F4D00026E81 /* LaunchScreen.storyboard */,
 				B534535B24462F4D00026E81 /* Info.plist */,
 				B5AF34A224466F2E001B2C2A /* CalculatorButton.swift */,
+				2538B876244A5677006E9B42 /* Config.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B534535224462F4600026E81 /* ViewController.swift in Sources */,
+				2538B877244A5677006E9B42 /* Config.swift in Sources */,
 				B5AF34A324466F2E001B2C2A /* CalculatorButton.swift in Sources */,
 				B534534E24462F4600026E81 /* AppDelegate.swift in Sources */,
 			);
